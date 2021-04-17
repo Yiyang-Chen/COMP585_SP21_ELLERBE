@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab17c189aed632541b5053748a33ffdc, type: 3}
+  m_Name: Great Blue Skimmer
+  m_EditorClassIdentifier: 
+  animalName: Great Blue Skimmer
+  description: The great blue skimmer (Libellula vibrans) is a dragonfly of the skimmer
+    family. With a total length of 50 to 63 mm, it is one of the largest skimmers.
+    The immature forms of the skimmer are brown in color and mature forms are blue-hued.
+    This species is found near lakes, ponds, and slow streams in the eastern United
+    States and rarely in southern Ontario.
+  rarity: Uncommon
+  picture: {fileID: 21300000, guid: 464e25e99c6707042b253260aa0e3c28, type: 3}
+  sightings: 0

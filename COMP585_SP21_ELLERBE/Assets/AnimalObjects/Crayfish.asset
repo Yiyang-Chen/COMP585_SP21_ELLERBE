@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab17c189aed632541b5053748a33ffdc, type: 3}
+  m_Name: Crayfish
+  m_EditorClassIdentifier: 
+  animalName: Crayfish
+  description: 'Crayfish are freshwater crustaceans resembling small lobsters (to
+    which they are related). In some parts of the United States, they are also known
+    as crawfish, craydids, crawdaddies, crawdads, freshwater lobsters, mountain lobsters,
+    mudbugs, or yabbies.
+
+
+    Taxonomically, they are members of the superfamilies
+    Astacoidea and Parastacoidea. They breathe through feather-like gills. Some species
+    are found in brooks and streams, where fresh water is running, while others thrive
+    in swamps, ditches, and paddy fields. Most crayfish cannot tolerate polluted
+    water, although some species, such as Procambarus clarkii, are hardier. Crayfish
+    feed on animals and plants, either living or decomposing, and detritus.'
+  rarity: Common
+  picture: {fileID: 21300000, guid: 93f5d645a79cb6f4f8a620ace596e9a9, type: 3}
+  sightings: 0

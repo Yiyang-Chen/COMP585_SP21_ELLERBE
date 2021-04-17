@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6bdbe552e0d0bf46bfbba4f5250d9b3, type: 3}
+  m_Name: UplandCommon
+  m_EditorClassIdentifier: 
+  allAnimals:
+  - {fileID: 11400000, guid: c288f5d48a914fe45af64899ba60c099, type: 2}
+  - {fileID: 11400000, guid: a47ffab89ffba8e44936ee24ace7db16, type: 2}
+  - {fileID: 11400000, guid: dbfcb7479372d51419f8d7f059b954da, type: 2}

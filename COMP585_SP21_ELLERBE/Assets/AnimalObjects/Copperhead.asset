@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab17c189aed632541b5053748a33ffdc, type: 3}
+  m_Name: Copperhead
+  m_EditorClassIdentifier: 
+  animalName: Copperhead
+  description: "The Copperhead is the most widespread of North Carolina\u2019s six
+    venomous snakes. The copperhead probably occurs in every county in North Carolina,
+    and is distributed throughout the southeastern United States. Known as \u201Chighland
+    moccasins,\u201D copperheads inhabit wooded areas ranging from riparian (streamside)
+    habitat to ridgetops. They sometimes reside in more open habitat and are fairly
+    tolerant of human development, often frequenting trash piles and abandoned buildings.
+    \r\n\r\nThe copperhead is a stout, moderately large viperid (i.e., in the family
+    of venomous, fanged snakes) that can attain a maximum length of almost 4.5 feet.
+    Adults are pinkish-brown with darker, brownish hourglass-shaped crossbands. Neonates,
+    or newborns, have bright greenish-yellow tail tips. They mate in both spring
+    and fall, and give birth to around a dozen live young in September and October.
+    In autumn, copperheads will gather to den communally along with other snake species
+    to better endure the colder months. Normally a quiet, retiring snake, copperheads
+    will strike vigorously if annoyed."
+  rarity: Common
+  picture: {fileID: 21300000, guid: 6a03f2c3324268f4f9eb7f73a576c030, type: 3}
+  sightings: 0

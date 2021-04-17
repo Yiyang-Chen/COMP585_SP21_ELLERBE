@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab17c189aed632541b5053748a33ffdc, type: 3}
+  m_Name: Common Yellowthroat
+  m_EditorClassIdentifier: 
+  animalName: Common Yellowthroat
+  description: The common yellowthroat (Geothlypis trichas) is a New World warbler.
+    It is an abundant breeder in North America, ranging from southern Canada to central
+    Mexico. The genus name Geothlypis is from Ancient Greek geo, "ground", and thlupis,
+    an unidentified small bird; thlypis is often used in the scientific names of
+    New World warblers. The specific trichas is also from Greek; trikhas is a kind
+    of thrush, the word being derived from trikhos, "hair".
+  rarity: Common
+  picture: {fileID: 21300000, guid: a74781a7fa1152b4aacad1005df44927, type: 3}
+  sightings: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab17c189aed632541b5053748a33ffdc, type: 3}
+  m_Name: Bald-Faced Hornet
+  m_EditorClassIdentifier: 
+  animalName: Bald-Faced Hornet
+  description: 'The bald-faced hornet (Dolichovespula maculata) is a eusocial wasp
+    of the cosmopolitan family Vespidae. It is also known as the bald hornet, white-faced
+    hornet, black jack, white-tailed hornet, white-ass hornet, spruce wasp, blackjacket,
+    and bull wasp. This species is a yellowjacket wasp, not a true hornet (genus
+    Vespa). Colonies contain 400 to 700 workers, the largest recorded colony size
+    in its genus, Dolichovespula. It builds a characteristic large hanging paper
+    nest up to 58 centimeters (23 in) in length. Workers aggressively defend their
+    nest by repeatedly stinging invaders.
+
+
+    The bald-faced hornet is distributed
+    throughout the United States and southern Canada, but is most common in the southeastern
+    United States. Males in this species are haploid and females are diploid. Worker
+    females can therefore lay eggs which develop into males.'
+  rarity: Uncommon
+  picture: {fileID: 21300000, guid: 26d5a56525f100341a794c80fb1acd17, type: 3}
+  sightings: 0

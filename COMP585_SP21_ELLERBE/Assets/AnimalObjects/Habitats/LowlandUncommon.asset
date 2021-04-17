@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6bdbe552e0d0bf46bfbba4f5250d9b3, type: 3}
+  m_Name: LowlandUncommon
+  m_EditorClassIdentifier: 
+  allAnimals:
+  - {fileID: 11400000, guid: ab88b6ce91255034e8312f28a171ad10, type: 2}
+  - {fileID: 11400000, guid: 6aaecfa082fe1c2469505a6e8d272a4d, type: 2}
+  - {fileID: 11400000, guid: a1c8eb6f0a7dc024fbfb55196cd0972f, type: 2}
+  - {fileID: 11400000, guid: 80d870923d31f8d418df1a0b41a7b3a3, type: 2}
+  - {fileID: 11400000, guid: 7794025310b9d8b4182927f03cc8e423, type: 2}

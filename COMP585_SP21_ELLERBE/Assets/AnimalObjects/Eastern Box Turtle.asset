@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab17c189aed632541b5053748a33ffdc, type: 3}
+  m_Name: Eastern Box Turtle
+  m_EditorClassIdentifier: 
+  animalName: Eastern Box Turtle
+  description: 'The eastern box turtle (Terrapene carolina carolina), also known
+    as land turtle, is a subspecies within a group of hinge-shelled turtles, normally
+    called box turtles. T. c. carolina is native to the eastern part of the United
+    States.
+
+
+    The eastern box turtle is a subspecies of the common box turtle
+    (Terrapene carolina). While in the pond turtle family, Emydidae, and not a tortoise,
+    the box turtle is largely terrestrial.[3] Box turtles are slow crawlers, extremely
+    long lived, slow to mature, and have relatively few offspring per year. These
+    characteristics, along with a propensity to get hit by cars and agricultural
+    machinery, make all box turtle species particularly susceptible to anthropogenic,
+    or human-induced, mortality.
+
+
+
+    In 2011, citing "a widespread persistent
+    and ongoing gradual decline of Terrapene carolina that probably exceeds 32% over
+    three generations", the IUCN downgraded its conservation status from Near Threatened
+    to Vulnerable.[1]'
+  rarity: Rare
+  picture: {fileID: 21300000, guid: 68e2281aaa6b24d40924cd2bdc2f8760, type: 3}
+  sightings: 0

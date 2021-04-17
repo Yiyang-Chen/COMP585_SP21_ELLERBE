@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab17c189aed632541b5053748a33ffdc, type: 3}
+  m_Name: Great Blue Heron
+  m_EditorClassIdentifier: 
+  animalName: Great Blue Heron
+  description: "The great blue heron (Ardea herodias) is a large wading bird in the
+    heron family Ardeidae, common near the shores of open water and in wetlands over
+    most of North America and Central America, as well as the Caribbean and the Gal\xE1pagos
+    Islands. It is a rare vagrant to coastal Spain, the Azores, and areas of far southern
+    Europe. An all-white population found in south Florida and the Florida Keys is
+    known as the great white heron. Debate exists about whether this represents a
+    white color morph of the great blue heron, a subspecies of it, or an entirely
+    separate species. The status of white individuals known to occur elsewhere in
+    the Caribbean, and very rarely elsewhere in eastern North America, is unclear."
+  rarity: Common
+  picture: {fileID: 21300000, guid: 3c51f5f3bbb9f0e4f87698618266528d, type: 3}
+  sightings: 0

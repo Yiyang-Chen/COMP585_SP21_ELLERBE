@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab17c189aed632541b5053748a33ffdc, type: 3}
+  m_Name: Chorus Frog
+  m_EditorClassIdentifier: 
+  animalName: Chorus Frog
+  description: "Pseudacris (commonly known as the chorus frogs) is a genus of frogs
+    in the family Hylidae found in North America ranging from the Pacific coastline
+    to the Atlantic.\r\n\r\nThe name of the genus comes from the Greek pseudes (false)
+    and akris (locust), probably a reference to the repeated rasping trill of most
+    chorus frogs, which is similar to that of the insect. It could also mean \u2018false
+    Acris\u2019, distinguishing it from another frog genus."
+  rarity: Legendary
+  picture: {fileID: 21300000, guid: b76f6dd54e76e63498895d4478f172fd, type: 3}
+  sightings: 0
