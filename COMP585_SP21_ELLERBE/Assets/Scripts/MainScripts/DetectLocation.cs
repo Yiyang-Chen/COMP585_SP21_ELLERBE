@@ -30,8 +30,6 @@ public class DetectLocation : MonoBehaviour {
 	public GameObject rare;
 	public GameObject legendary;
 	public bool spawned = false;
-	
-	private bool mPositionSet;
 
 	public string currentHabitat;
 
