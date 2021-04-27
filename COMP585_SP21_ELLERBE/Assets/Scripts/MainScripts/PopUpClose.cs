@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PopUpClose : MonoBehaviour
 {
-     public GameObject popup;
+    public GameObject popup;
     public void close()
     {
         popup.SetActive(false);

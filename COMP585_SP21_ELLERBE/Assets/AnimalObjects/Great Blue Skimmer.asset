@@ -18,6 +18,7 @@ MonoBehaviour:
     The immature forms of the skimmer are brown in color and mature forms are blue-hued.
     This species is found near lakes, ponds, and slow streams in the eastern United
     States and rarely in southern Ontario.
+  shortDescription: A dragonfly of the skimmer family. It is one of the largest skimmers.
   rarity: Uncommon
   picture: {fileID: 21300000, guid: 464e25e99c6707042b253260aa0e3c28, type: 3}
-  sightings: 0
+  sightings: 2

@@ -18,6 +18,8 @@ MonoBehaviour:
     obscure dark blotches and often with bright green around the face. Its belly
     is whitish with dark mottling. The lack of ridges running along the sides of
     its body distinguishes it from most of our other \u201Ctrue frogs.\u201D"
+  shortDescription: 'The largest of North American frogs and usually some shade of
+    brown or green. '
   rarity: Uncommon
   picture: {fileID: 21300000, guid: 08573951d75612c44b6cb69e34e1b8c0, type: 3}
-  sightings: 0
+  sightings: 2

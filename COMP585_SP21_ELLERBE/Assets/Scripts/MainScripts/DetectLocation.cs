@@ -29,7 +29,6 @@ public class DetectLocation : MonoBehaviour {
 	public GameObject uncommon;
 	public GameObject rare;
 	public GameObject legendary;
-	public bool spawned = false;
 
 	public string currentHabitat;
 
@@ -83,7 +82,7 @@ public class DetectLocation : MonoBehaviour {
 		Vector2 delta = new Vector2(rCurrentPos.x - rInitPos.x, rCurrentPos.y - rInitPos.y);
 		fCurrentPos = new Vector2(fInitPos.x + delta.x * scale, fInitPos.y + delta.y * scale);
 		this.transform.position = new Vector3(fCurrentPos.x, 0, fCurrentPos.y);
-		text.text = "Target Location : " + targetLatitude + ", " + targetLongitude + "\nMy real Location: " + deviceLatitude + ", " + deviceLongitude + "\nMy virtual Location: " + fCurrentPos.x + ", " + fCurrentPos.y + "\nSpawned: " + spawned;
+		text.text = "Target Location : " + targetLatitude + ", " + targetLongitude + "\nMy real Location: " + deviceLatitude + ", " + deviceLongitude + "\nMy virtual Location: " + fCurrentPos.x + ", " + fCurrentPos.y ;
 		distanceFromTarget = Vector2.Distance(targetCoordinates, fCurrentPos);
 	}
 
@@ -96,10 +95,7 @@ public class DetectLocation : MonoBehaviour {
 			//if (deviceLatitude <= 5 && deviceLatitude >= 0 && deviceLongitude <= 5 && deviceLatitude >= 0){
 			text.text += "\nDistance : " + distanceFromTarget.ToString();
 			text.text += "\nNot in the target region";
-			if (!spawned)
-			{
-				SpawnElement(randomEgg());
-			}
+			SpawnElement(randomEgg());
 
 		}
 		else
@@ -107,10 +103,7 @@ public class DetectLocation : MonoBehaviour {
 			//target too far
 			text.text = text.text + "\nDistance : " + distanceFromTarget.ToString();
 			text.text += "\nIn the target region";
-			if (!spawned)
-			{
-				SpawnElement(randomEgg());
-			}
+			SpawnElement(randomEgg());
 		}
 	}
 
@@ -121,7 +114,6 @@ public class DetectLocation : MonoBehaviour {
         GameObject cube = Instantiate(element) as GameObject;
 		cube.transform.SetParent(GameObject.Find("ObjectContainer").transform);
 		cube.transform.localPosition = new Vector3(0,0,0);
-		spawned = true;
 		return cube;
     }
 
@@ -137,7 +129,6 @@ public class DetectLocation : MonoBehaviour {
 
 	public void spawnedWhenClick()
     {
-		spawned = false;
 		spawn();
     }
 	

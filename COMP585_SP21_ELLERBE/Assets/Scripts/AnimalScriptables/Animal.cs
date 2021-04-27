@@ -10,6 +10,8 @@ public class Animal : ScriptableObject
     
     [TextArea(20,20)]
     public string description; 
+    [TextArea(5,5)]
+    public string shortDescription;
     public string rarity;
     public Sprite picture;
     public int sightings;

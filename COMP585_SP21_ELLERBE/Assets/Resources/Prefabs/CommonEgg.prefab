@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 2027398260865910072}
   - component: {fileID: -1003084130414405238}
   - component: {fileID: -6699827367606061911}
+  - component: {fileID: 5813496755818074370}
   m_Layer: 0
   m_Name: CommonEgg
-  m_TagString: Untagged
+  m_TagString: Egg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,7 +91,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4306118648463843631}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 5, y: 5, z: 5}
@@ -111,6 +112,7 @@ MonoBehaviour:
   water: {fileID: 11400000, guid: db2b43fb237dbab4e9fa319409cc5034, type: 2}
   bottomland: {fileID: 11400000, guid: 920833aa749c46d4992180067faa4418, type: 2}
   upland: {fileID: 11400000, guid: d8d86a67835bb504982a2556c9bb37a3, type: 2}
+  popup: {fileID: 46266286927592542, guid: 902b8d3c7cfc90d4abaa2dd982c18528, type: 3}
 --- !u!114 &-6699827367606061911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,3 +128,17 @@ MonoBehaviour:
   mScaleMax: 2
   mScaleMin: 0.5
   mGrowingSpeed: 10
+--- !u!114 &5813496755818074370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4306118648463843631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de8692a31ae3f044bb9868055bc03ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eggExistSeconds: 30
+  fadeSpeed: 0.03

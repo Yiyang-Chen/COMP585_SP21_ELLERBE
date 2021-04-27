@@ -30,6 +30,7 @@ MonoBehaviour:
     into urban areas in the eastern U.S. and Canada. The coyote was sighted in eastern
     Panama (across the Panama Canal from their home range) for the first time in
     2013.'
+  shortDescription: A species of canine native to North America.
   rarity: Common
   picture: {fileID: 21300000, guid: a9a9b674f170d15449ddc3b52c593c42, type: 3}
   sightings: 0

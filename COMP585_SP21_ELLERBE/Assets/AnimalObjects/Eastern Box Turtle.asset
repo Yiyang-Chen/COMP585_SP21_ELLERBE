@@ -21,7 +21,7 @@ MonoBehaviour:
 
     The eastern box turtle is a subspecies of the common box turtle
     (Terrapene carolina). While in the pond turtle family, Emydidae, and not a tortoise,
-    the box turtle is largely terrestrial.[3] Box turtles are slow crawlers, extremely
+    the box turtle is largely terrestrial. Box turtles are slow crawlers, extremely
     long lived, slow to mature, and have relatively few offspring per year. These
     characteristics, along with a propensity to get hit by cars and agricultural
     machinery, make all box turtle species particularly susceptible to anthropogenic,
@@ -32,7 +32,9 @@ MonoBehaviour:
     In 2011, citing "a widespread persistent
     and ongoing gradual decline of Terrapene carolina that probably exceeds 32% over
     three generations", the IUCN downgraded its conservation status from Near Threatened
-    to Vulnerable.[1]'
+    to Vulnerable.'
+  shortDescription: 'A subspecies within a group of hinge-shelled turtles, normally
+    called box turtles. '
   rarity: Rare
   picture: {fileID: 21300000, guid: 68e2281aaa6b24d40924cd2bdc2f8760, type: 3}
   sightings: 0

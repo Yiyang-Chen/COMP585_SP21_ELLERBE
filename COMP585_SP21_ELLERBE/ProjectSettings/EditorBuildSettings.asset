@@ -29,9 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Journal.unity
     guid: e0b6fbd7deb28014c825743f1933a3f4
-  - enabled: 1
-    path: Assets/Scenes/Journal2.unity
-    guid: 579c076e7761fb146b008448db6b46d8
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

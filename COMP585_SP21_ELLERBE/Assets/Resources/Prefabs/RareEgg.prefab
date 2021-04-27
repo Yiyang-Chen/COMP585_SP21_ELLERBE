@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 6974696403711546255}
   - component: {fileID: 9008888397959962923}
   - component: {fileID: 7067965497533556255}
+  - component: {fileID: 2679990024568884326}
   m_Layer: 0
   m_Name: RareEgg
-  m_TagString: Untagged
+  m_TagString: Egg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,6 +112,7 @@ MonoBehaviour:
   water: {fileID: 11400000, guid: f80ad7fe7ebb4134593744f1172e4d35, type: 2}
   bottomland: {fileID: 11400000, guid: f111a3d5665fe714ab8c0bd65957238e, type: 2}
   upland: {fileID: 11400000, guid: 6d9ab34908900e94da742289acf6b353, type: 2}
+  popup: {fileID: 5165573973920548761, guid: da32becb46b00d94eb7dfe10dc2ea156, type: 3}
 --- !u!114 &7067965497533556255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,3 +128,17 @@ MonoBehaviour:
   mScaleMax: 2
   mScaleMin: 0.5
   mGrowingSpeed: 10
+--- !u!114 &2679990024568884326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8171418713777887866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de8692a31ae3f044bb9868055bc03ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eggExistSeconds: 30
+  fadeSpeed: 0.03

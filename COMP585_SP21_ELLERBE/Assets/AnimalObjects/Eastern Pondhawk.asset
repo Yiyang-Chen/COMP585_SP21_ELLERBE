@@ -19,6 +19,8 @@ MonoBehaviour:
     a dragonfly of ponds and still waters. The species is distinguished in that the
     female is bright green with a banded abdomen and the mature male has a blue abdomen
     with a green face and green and blue thorax.
+  shortDescription: A dragonfly of ponds and still waters, native to the eastern
+    two-thirds of the United States and southern Ontario and Quebec, Canada.
   rarity: Common
   picture: {fileID: 21300000, guid: f18a1590641d671459bc7afb7d762093, type: 3}
-  sightings: 0
+  sightings: 1

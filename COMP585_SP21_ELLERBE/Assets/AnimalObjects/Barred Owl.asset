@@ -14,25 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalName: Barred Owl
   description: 'The barred owl (Strix varia), also known as the northern barred owl,
-    striped owl or, more informally, hoot owl, is a North American large species of
-    owl. A member of the true owl family, Strigidae, they belong to the genus Strix,
-    which is also the origin of the family''s name under Linnaean taxonomy. Barred
-    owls are largely native to eastern North America, but have expanded their range
-    to the west coast of North America where they are considered invasive. Mature
-    forests are their preferred habitat, but they can also acclimate to various gradients
-    of open woodlands. Their diet consists mainly of small mammals, but this species
-    is an opportunistic predator and is known to prey upon other small vertebrates
-    such as birds, reptiles, and amphibians, as well as a variety of invertebrates.
+    striped owl or, more informally, hoot owl, is a North American large species
+    of owl. A member of the true owl family, Strigidae, they belong to the genus
+    Strix, which is also the origin of the family''s name under Linnaean taxonomy.
+    Barred owls are largely native to eastern North America, but have expanded their
+    range to the west coast of North America where they are considered invasive.
+    Mature forests are their preferred habitat, but they can also acclimate to various
+    gradients of open woodlands. Their diet consists mainly of small mammals, but
+    this species is an opportunistic predator and is known to prey upon other small
+    vertebrates such as birds, reptiles, and amphibians, as well as a variety of
+    invertebrates.
 
 
-    Barred owls are brown to gray overall, with dark striping on the underside. Barred
-    owls have typical nesting habits for a true owl, tending to raise a relatively
-    small brood often in a tree hollow or snag (but sometimes also in other nesting
-    sites) in forested areas. As a result of the barred owl''s westward expansion,
-    the species has begun to encroach on the range of the related and threatened spotted
-    owl (Strix occidentalis). Evidence shows the assorted threats posed by the invading
-    barred species are only increasing. In response, biologists have recommended culling
-    operations to mitigate the negative effect of the barred on the spotted owl species.'
+    Barred owls are brown to gray overall, with dark striping
+    on the underside. Barred owls have typical nesting habits for a true owl, tending
+    to raise a relatively small brood often in a tree hollow or snag (but sometimes
+    also in other nesting sites) in forested areas. As a result of the barred owl''s
+    westward expansion, the species has begun to encroach on the range of the related
+    and threatened spotted owl (Strix occidentalis). Evidence shows the assorted
+    threats posed by the invading barred species are only increasing. In response,
+    biologists have recommended culling operations to mitigate the negative effect
+    of the barred on the spotted owl species.'
+  shortDescription: A North American large species of owl. Also known as the northern
+    barred owl, striped owl or, more informally, hoot owl.
   rarity: Rare
   picture: {fileID: 21300000, guid: 47014dd0c847aa844b32ede49019dc36, type: 3}
   sightings: 0

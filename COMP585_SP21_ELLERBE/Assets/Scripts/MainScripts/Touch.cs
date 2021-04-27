@@ -16,17 +16,22 @@ public class Touch : MonoBehaviour
     public AnimalDatabase bottomland;
     public AnimalDatabase upland;
     private Animal animal;
+    public RectTransform popup;
 
  /// <summary>
  /// Called every frame while the mouse is over the GUIElement or Collider.
  /// </summary>
+
  void OnMouseOver()
  {
      if(Input.GetMouseButtonDown(0)){
-          Destroy(this.gameObject);
-          GetAnimal();
-          //SpawnPopUp(popup);
-          //popup.SetActive(true);
+        Destroy(this.gameObject);
+        GameObject.Find("DetectLocation").GetComponent<SpawnManager>().existEgg = false;
+        GetAnimal();
+        //GameObject.FindGameObjectWithTag("PopUp").SetActive(true);
+        popup.gameObject.SetActive(true);
+        //SpawnPopUp(popup);
+        //popup.SetActive(true);
      }
  }
 
@@ -42,9 +47,6 @@ public class Touch : MonoBehaviour
         if (Physics.Raycast(ray, out Hit))
         {
             Destroy(this.gameObject);
-            GetAnimal();
-            //SpawnPopUp(popup);
-            //popup.SetActive(true);
         }
     }
 }
@@ -52,7 +54,7 @@ public class Touch : MonoBehaviour
 /* 
 private GameObject SpawnPopUp(GameObject popup) 
     {
-        //GameObject box = Instantiate(popup) as GameObject;
+        GameObject box = Instantiate(popup) as GameObject;
         box.transform.SetParent(GameObject.FindGameObjectWithTag("parent").transform, false);
         animal = GetAnimal();
         animal.sightings += 1;
@@ -98,7 +100,10 @@ private GameObject SpawnPopUp(GameObject popup)
             default:
                 animal = water.allAnimals[Random.Range(0, water.allAnimals.Count)];
                 animal.sightings += 1;
-                GameObject.Find("Animallog").GetComponent<Text>().text = "Species: " + animal.name + "\nTotal Sightings: " + animal.sightings.ToString();
+                //GameObject.Find("Animallog").GetComponent<Text>().text = "Species: " + animal.name + "\nTotal Sightings: " + animal.sightings.ToString();
+                RectTransform box = Instantiate(popup) as RectTransform;
+                box.transform.SetParent(GameObject.FindGameObjectWithTag("parent").transform, false);
+                popup.GetComponent<PopUp>().animal = animal;
                 AddToScore(animal);
                 break;
         }

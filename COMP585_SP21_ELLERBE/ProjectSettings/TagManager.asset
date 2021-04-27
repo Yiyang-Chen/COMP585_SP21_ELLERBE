@@ -9,6 +9,7 @@ TagManager:
   - parent
   - DetectLocation
   - scoremanager
+  - Egg
   layers:
   - Default
   - TransparentFX

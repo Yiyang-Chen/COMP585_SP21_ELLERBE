@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Green Sunfish
   m_EditorClassIdentifier: 
   animalName: Green Sunfish
-  description: 'The green sunfish (Lepomis cyanellus) is a species of Freshwater fish
-    in the sunfish family (Centrarchidae) of order Perciformes. A panfish popular
+  description: 'The green sunfish (Lepomis cyanellus) is a species of Freshwater
+    fish in the sunfish family (Centrarchidae) of order Perciformes. A panfish popular
     with anglers, the green sunfish is also kept as an aquarium fish by hobbyists.
     They are usually caught by accident, while fishing for other game fish. Green
     sunfish can be caught with live bait such as nightcrawlers, waxworms, mealworms,
@@ -23,9 +23,12 @@ MonoBehaviour:
     can be caught with fly fishing tackle.
 
 
-    The green sunfish is said to have polarization sensitive vision not found in humans
-    and other vertebrates mostly which helps in enhancement of visibility of target
-    objects in scattering media, using a method called polarization difference imaging.'
+    The green sunfish is said to have
+    polarization sensitive vision not found in humans and other vertebrates mostly
+    which helps in enhancement of visibility of target objects in scattering media,
+    using a method called polarization difference imaging.'
+  shortDescription: A panfish popular with anglers, the green sunfish is also kept
+    as an aquarium fish by hobbyists.
   rarity: Common
   picture: {fileID: 21300000, guid: 4caeca1eb68aec843b3bf1e0ff51a6a6, type: 3}
-  sightings: 0
+  sightings: 4

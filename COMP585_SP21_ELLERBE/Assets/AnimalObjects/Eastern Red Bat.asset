@@ -16,6 +16,7 @@ MonoBehaviour:
   description: The eastern red bat (Lasiurus borealis) is a species of microbat in
     the family Vespertilionidae. Eastern red bats are widespread across eastern North
     America, with additional records in Bermuda.
+  shortDescription: 'A species of microbat in the family Vespertilionidae. '
   rarity: Rare
   picture: {fileID: 21300000, guid: ad37957797783cc439b69e8ae1fb3be8, type: 3}
   sightings: 0

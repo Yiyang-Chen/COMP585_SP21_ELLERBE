@@ -17,12 +17,13 @@ MonoBehaviour:
     omnivorous birds in the order of Passerines in the genus Sialia of the thrush
     family (Turdidae). Bluebirds are one of the few thrush genera in the Americas.
 
-    
 
     Bluebirds
     have blue, or blue and rose beige, plumage. Female birds are less brightly colored
     than males, although color patterns are similar and there is no noticeable difference
     in size.'
+  shortDescription: A group of medium-sized birds with blue, or blue and rose beige,
+    plumage.
   rarity: Common
   picture: {fileID: 21300000, guid: 377488244ee0ade4ca3830a7b0af2cce, type: 3}
   sightings: 0

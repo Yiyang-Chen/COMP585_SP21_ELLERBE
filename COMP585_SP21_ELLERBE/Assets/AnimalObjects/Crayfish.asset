@@ -25,6 +25,8 @@ MonoBehaviour:
     in swamps, ditches, and paddy fields. Most crayfish cannot tolerate polluted
     water, although some species, such as Procambarus clarkii, are hardier. Crayfish
     feed on animals and plants, either living or decomposing, and detritus.'
+  shortDescription: Freshwater crustaceans resembling small lobsters (to which they
+    are related).
   rarity: Common
   picture: {fileID: 21300000, guid: 93f5d645a79cb6f4f8a620ace596e9a9, type: 3}
-  sightings: 0
+  sightings: 1
