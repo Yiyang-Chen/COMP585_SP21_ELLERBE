@@ -1,5 +1,5 @@
 # COMP585_SP21_ELLERBE
-COMP585_SP21_ELLERBE
+**Andrew Martin, Stephanie Lu, and Yiyang Chen**
 
 # 1.Unity
 This is a unity project, we use version **2019.4.22f1**
