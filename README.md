@@ -11,7 +11,7 @@ When you download the unity, remember to choose **Android/IOS support (SDK, NDK,
 # 2.Vuforia
 After add your project to unity hub, you need to download Vuforia.
 
-Go to [this link] (https://drive.google.com/drive/folders/1OtJ0-zajURqmgdKsyYFLzw9nguwTvT2O?usp=sharing)
+Go to [this link](https://drive.google.com/drive/folders/1OtJ0-zajURqmgdKsyYFLzw9nguwTvT2O?usp=sharing)
 
 Download the floder Vuforia.
 
