@@ -4,7 +4,7 @@ COMP585_SP21_ELLERBE
 # 1.Unity
 This is a unity project, we use version **2019.4.22f1**
 
-When you download the unity, remember to choose Android/ios support (SDK, NDK, JDK), so that the project can be built to cell phone.
+When you download the unity, remember to choose **Android/IOS support (SDK, NDK, JDK)**, so that the project can be built to cell phone.
 
 
 
