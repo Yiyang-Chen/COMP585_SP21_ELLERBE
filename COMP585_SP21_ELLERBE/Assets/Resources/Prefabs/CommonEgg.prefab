@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -1003084130414405238}
   - component: {fileID: -6699827367606061911}
   - component: {fileID: 5813496755818074370}
+  - component: {fileID: 109485881491295764}
   m_Layer: 0
   m_Name: CommonEgg
   m_TagString: Egg
@@ -142,3 +143,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eggExistSeconds: 30
   fadeSpeed: 0.03
+--- !u!114 &109485881491295764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4306118648463843631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e8d48295ca7db349beabb0cc6fcadc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  maxRotation: 30

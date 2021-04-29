@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEditor;
 
 public class Touch : MonoBehaviour
 {
@@ -16,7 +15,6 @@ public class Touch : MonoBehaviour
     public AnimalDatabase bottomland;
     public AnimalDatabase upland;
     private Animal animal;
-    public RectTransform popup;
 
  /// <summary>
  /// Called every frame while the mouse is over the GUIElement or Collider.
@@ -28,10 +26,8 @@ public class Touch : MonoBehaviour
         Destroy(this.gameObject);
         GameObject.Find("DetectLocation").GetComponent<SpawnManager>().existEgg = false;
         GetAnimal();
-        //GameObject.FindGameObjectWithTag("PopUp").SetActive(true);
-        popup.gameObject.SetActive(true);
-        //SpawnPopUp(popup);
-        //popup.SetActive(true);
+        Image pop = GameObject.Find("PopupPanel").GetComponent<Image>();
+        pop.color = new Color(pop.color.r, pop.color.g, pop.color.b, .01f);
      }
  }
 
@@ -47,6 +43,8 @@ public class Touch : MonoBehaviour
         if (Physics.Raycast(ray, out Hit))
         {
             Destroy(this.gameObject);
+            GameObject.Find("DetectLocation").GetComponent<SpawnManager>().existEgg = false;
+            GetAnimal();
         }
     }
 }
@@ -74,36 +72,33 @@ private GameObject SpawnPopUp(GameObject popup)
             case 0:
                 animal = water.allAnimals[Random.Range(0, water.allAnimals.Count)];
                 animal.sightings += 1;
-                AssetDatabase.Refresh();
-                EditorUtility.SetDirty(animal);
-                AssetDatabase.SaveAssets();
+                //AssetDatabase.Refresh();
+                //EditorUtility.SetDirty(animal);
+                //AssetDatabase.SaveAssets();
                 AddToScore(animal);
                 break;
             case 1:
                 animal = upland.allAnimals[Random.Range(0, upland.allAnimals.Count)];
                 animal.sightings += 1;
-                GameObject.Find("Animallog").GetComponent<Text>().text = "Species: " + animal.name + "\nTotal Sightings: " + animal.sightings.ToString();
                 AddToScore(animal);
                 break;
             case 2:
                 animal = bottomland.allAnimals[Random.Range(0, bottomland.allAnimals.Count)];
                 animal.sightings += 1;
-                GameObject.Find("Animallog").GetComponent<Text>().text = "Species: " + animal.name + "\nTotal Sightings: " + animal.sightings.ToString();
                 AddToScore(animal);
                 break;
             case 3:
                 animal = water.allAnimals[Random.Range(0, water.allAnimals.Count)];
                 animal.sightings += 1;
-                GameObject.Find("Animallog").GetComponent<Text>().text = "Species: " + animal.name + "\nTotal Sightings: " + animal.sightings.ToString();
                 AddToScore(animal);
                 break;
             default:
                 animal = water.allAnimals[Random.Range(0, water.allAnimals.Count)];
                 animal.sightings += 1;
-                //GameObject.Find("Animallog").GetComponent<Text>().text = "Species: " + animal.name + "\nTotal Sightings: " + animal.sightings.ToString();
-                RectTransform box = Instantiate(popup) as RectTransform;
-                box.transform.SetParent(GameObject.FindGameObjectWithTag("parent").transform, false);
-                popup.GetComponent<PopUp>().animal = animal;
+                GameObject.Find("PopupName").GetComponent<Text>().text = animal.name;
+                GameObject.Find("PopupDescription").GetComponent<Text>().text = animal.shortDescription;
+                GameObject.Find("PopupRarity").GetComponent<Text>().text = "Rarity: " + animal.rarity;
+                GameObject.Find("PopupImage").GetComponent<Image>().sprite = animal.picture;
                 AddToScore(animal);
                 break;
         }

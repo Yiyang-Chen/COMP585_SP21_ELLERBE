@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7747782510878829133}
   - component: {fileID: 8158876261762491295}
   - component: {fileID: 5149904878856931887}
+  - component: {fileID: -5501440540771039947}
   m_Layer: 0
   m_Name: LegendaryEgg
   m_TagString: Egg
@@ -142,3 +143,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eggExistSeconds: 30
   fadeSpeed: 0.03
+--- !u!114 &-5501440540771039947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869931916519967210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e8d48295ca7db349beabb0cc6fcadc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

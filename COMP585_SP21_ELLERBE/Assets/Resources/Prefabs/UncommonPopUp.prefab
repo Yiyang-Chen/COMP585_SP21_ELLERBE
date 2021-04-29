@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6774e7bad9dec3444b6b64092e22e51b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: {fileID: 11400000, guid: 80d870923d31f8d418df1a0b41a7b3a3, type: 2}
+  animal: {fileID: 11400000, guid: 6aaecfa082fe1c2469505a6e8d272a4d, type: 2}
   name: {fileID: 4958471172808817652}
   shortdescription: {fileID: 1987156662088107259}
   picture: {fileID: 7587389907096383913}

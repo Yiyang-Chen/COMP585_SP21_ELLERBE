@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab17c189aed632541b5053748a33ffdc, type: 3}
   m_Name: Canadian Goose
   m_EditorClassIdentifier: 
-  animalName: CanadianGoose
+  animalName: Canadian Goose
   description: 'The Canada goose (Branta canadensis) is a large wild goose with a
     black head and neck, white cheeks, white under its chin, and a brown body. It
     is native to arctic and temperate regions of North America, and its migration
@@ -33,4 +33,4 @@ MonoBehaviour:
     white under its chin, and a brown body.
   rarity: Common
   picture: {fileID: 21300000, guid: eb105148351d05c4ebf2d2922ec41ba1, type: 3}
-  sightings: 4
+  sightings: 0
