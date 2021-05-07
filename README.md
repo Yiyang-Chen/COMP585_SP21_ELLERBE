@@ -13,9 +13,11 @@ After add your project to unity hub, you need to download Vuforia.
 
 Go to [this link](https://drive.google.com/drive/folders/1OtJ0-zajURqmgdKsyYFLzw9nguwTvT2O?usp=sharing)
 
-Download the floder Vuforia.
+Download the folder Vuforia.
 
-Put the floder under **Packages/package**
+Put the folder under **Packages/package**
+
+Some part of the Vuforia is already included in this github. If you install vuforia from official website without having that folder in the right place, there might be errors. 
 
 
 
