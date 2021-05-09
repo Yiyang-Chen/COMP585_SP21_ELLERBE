@@ -20,7 +20,7 @@ Download the folder Vuforia.
 
 Put the folder under **Packages/package**
 
-Some part of the Vuforia is already included in this github. If you install vuforia from official website without having this Vuforia folder provided in the right place, there might be errors. 
+Some part of the Vuforia is already included in this github. If you install vuforia from the official website without having this Vuforia folder provided in the right place, there might be errors. 
 
 
 
