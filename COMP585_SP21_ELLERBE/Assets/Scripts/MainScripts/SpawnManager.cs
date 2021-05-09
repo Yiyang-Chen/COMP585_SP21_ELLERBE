@@ -5,11 +5,16 @@ using UnityEngine.UI;
 
 public class SpawnManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject common;
+    public GameObject uncommon;
+    public GameObject rare;
+    public GameObject legendary;
+
     public int minWaitSeconds;
     public int maxWaitSeconds;
-    public int eggExistSeconds=30;
+    public int eggExistSeconds=20;
     private int randSecond;
+
     public bool existEgg = false;
     void Start()
     {
@@ -18,24 +23,71 @@ public class SpawnManager : MonoBehaviour
 
     public IEnumerator SpawnAnimal()
     {
+        //waiting for  + randSecond + Seconds
         randSecond = Random.Range(minWaitSeconds, maxWaitSeconds);
-        GameObject.Find("RegionText").GetComponent<Text>().text = "waiting for " + randSecond + " Second";
         yield return new WaitForSeconds(randSecond);
-        GameObject.Find("RegionText").GetComponent<Text>().text = "waited for " + randSecond + " Second. Spawned.";
-        GameObject.Find("DetectLocation").GetComponent<DetectLocation>().spawnedWhenClick();
-        existEgg = true;
-        GameObject.Find("RegionText").GetComponent<Text>().text = "waiting for 30 Seconds";
+
+        //Spawn
+        spawnedWhenClick();
+
+        //waiting for 20 Seconds
         yield return new WaitForSeconds(eggExistSeconds);
+
+        //If egg is clicked or not
         if(existEgg == true)
         {
-            GameObject.Find("RegionText").GetComponent<Text>().text = "waited for 30 Seconds. Not clicked. Destory.Spawn a new egg.";
+            //waited for 20 Seconds. Not clicked. Destory.Spawn a new egg.
             Destroy(GameObject.FindWithTag("Egg"));
             existEgg = false;
         }
         else
         {
-            GameObject.Find("RegionText").GetComponent<Text>().text = "waited for 30 Seconds. Clicked. Spawn a new egg.";
+            //waited for 20 Seconds. Clicked. Spawn a new egg.
         }
         StartCoroutine(SpawnAnimal());
+    }
+
+    public void spawnedWhenClick()
+    {
+        spawn();
+    }
+
+    //Decide which kind of perfeb to spawn accroading to the distance to target 
+    public void spawn()
+    {
+        existEgg = true;
+        SpawnElement(randomEgg());
+    }
+
+    private GameObject SpawnElement(GameObject element)
+    {
+
+        // spawn the element on a random position, inside a imaginary sphere
+        GameObject cube = Instantiate(element) as GameObject;
+        cube.transform.SetParent(GameObject.Find("ObjectContainer").transform);
+        cube.transform.localPosition = new Vector3(0, 0, 0);
+        return cube;
+    }
+
+    private GameObject randomEgg()
+    {
+        float random = Random.value;
+        if (random <= .5)
+        {
+            return common;
+        }
+        else if (random > .5 && random <= .8)
+        {
+            return uncommon;
+        }
+        else if (random > .8 && random <= .97)
+        {
+            return rare;
+        }
+        else
+        {
+            return legendary;
+        }
+
     }
 }

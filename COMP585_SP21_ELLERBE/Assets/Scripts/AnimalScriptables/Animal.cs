@@ -12,7 +12,7 @@ public class Animal : ScriptableObject
     public string description; 
     [TextArea(5,5)]
     public string shortDescription;
-    public string rarity;
+    public string cryptic;
     public Sprite picture;
     public int sightings;
 

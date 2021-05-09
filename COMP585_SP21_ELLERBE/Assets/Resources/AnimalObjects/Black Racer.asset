@@ -19,6 +19,6 @@ MonoBehaviour:
     which as a group are commonly referred to as the eastern racers. The species
     is monotypic in the genus Coluber.
   shortDescription: A species of nonvenomous snake in the family Colubridae.
-  rarity: Rare
+  cryptic: Very High
   picture: {fileID: 21300000, guid: 096d1b14144d9124d9cc3d0364877880, type: 3}
   sightings: 0

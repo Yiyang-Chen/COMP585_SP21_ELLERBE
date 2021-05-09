@@ -29,6 +29,6 @@ MonoBehaviour:
     females can therefore lay eggs which develop into males.'
   shortDescription: A relative of the yellowjacket that gets its common name from
     its largely black color and mostly white face.
-  rarity: Uncommon
+  cryptic: High
   picture: {fileID: 21300000, guid: 26d5a56525f100341a794c80fb1acd17, type: 3}
   sightings: 0

@@ -35,6 +35,6 @@ MonoBehaviour:
     to Vulnerable.'
   shortDescription: 'A subspecies within a group of hinge-shelled turtles, normally
     called box turtles. '
-  rarity: Rare
+  cryptic: Low
   picture: {fileID: 21300000, guid: 68e2281aaa6b24d40924cd2bdc2f8760, type: 3}
   sightings: 0

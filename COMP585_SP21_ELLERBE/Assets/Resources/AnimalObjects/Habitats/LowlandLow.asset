@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6bdbe552e0d0bf46bfbba4f5250d9b3, type: 3}
-  m_Name: LowlandCommon
+  m_Name: LowlandLow
   m_EditorClassIdentifier: 
   allAnimals:
-  - {fileID: 11400000, guid: 3796ba242d3d9094a85880484db83ff8, type: 2}
-  - {fileID: 11400000, guid: 05ad19fd68bd8b840baa4585b71e1635, type: 2}
+  - {fileID: 11400000, guid: 6aaecfa082fe1c2469505a6e8d272a4d, type: 2}
   - {fileID: 11400000, guid: a47ffab89ffba8e44936ee24ace7db16, type: 2}
-  - {fileID: 11400000, guid: dbfcb7479372d51419f8d7f059b954da, type: 2}
+  - {fileID: 11400000, guid: 80d870923d31f8d418df1a0b41a7b3a3, type: 2}

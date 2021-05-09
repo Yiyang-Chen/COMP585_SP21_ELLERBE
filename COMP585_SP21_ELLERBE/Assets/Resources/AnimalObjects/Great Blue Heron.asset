@@ -24,6 +24,6 @@ MonoBehaviour:
     the Caribbean, and very rarely elsewhere in eastern North America, is unclear."
   shortDescription: A large wading bird in the heron family Ardeidae, common near
     the shores of open water and in wetlands.
-  rarity: Common
+  cryptic: Very Low
   picture: {fileID: 21300000, guid: 3c51f5f3bbb9f0e4f87698618266528d, type: 3}
   sightings: 0

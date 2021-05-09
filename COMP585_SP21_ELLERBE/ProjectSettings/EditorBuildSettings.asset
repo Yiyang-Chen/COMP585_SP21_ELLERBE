@@ -5,33 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: b78c7950ecf0ac4459472672e795f2b4
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 4d36773fa62c23d4a9fa54f5e90cb28f
-  - enabled: 0
-    path: Assets/Scenes/Journal.unity
-    guid: e0b6fbd7deb28014c825743f1933a3f4
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: ba4a3640975994d4994589c398f26a8d
   - enabled: 1
     path: Assets/Scenes/Journal.unity
     guid: e0b6fbd7deb28014c825743f1933a3f4
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

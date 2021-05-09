@@ -49,20 +49,6 @@ public class Touch : MonoBehaviour
     }
 }
 
-/* 
-private GameObject SpawnPopUp(GameObject popup) 
-    {
-        GameObject box = Instantiate(popup) as GameObject;
-        box.transform.SetParent(GameObject.FindGameObjectWithTag("parent").transform, false);
-        animal = GetAnimal();
-        animal.sightings += 1;
-        GameObject.Find("Debuglog").GetComponent<Text>().text = animal.name + animal.sightings.ToString();
-        popup.GetComponent<PopUp>().name.text = animal.name;
-        AddToScore(animal);
-        // define a random scale for the cube
-		return box;
-    } */
-
     private void GetAnimal()
     {
         Vector2 P = new Vector2(GameObject.Find("DetectLocation").GetComponent<DetectLocation>().fCurrentPos.x, GameObject.Find("DetectLocation").GetComponent<DetectLocation>().fCurrentPos.y);
@@ -72,24 +58,37 @@ private GameObject SpawnPopUp(GameObject popup)
             case 0:
                 animal = water.allAnimals[Random.Range(0, water.allAnimals.Count)];
                 animal.sightings += 1;
-                //AssetDatabase.Refresh();
-                //EditorUtility.SetDirty(animal);
-                //AssetDatabase.SaveAssets();
+                GameObject.Find("PopupName").GetComponent<Text>().text = animal.name;
+                GameObject.Find("PopupDescription").GetComponent<Text>().text = animal.shortDescription;
+                GameObject.Find("PopupCryptic").GetComponent<Text>().text = "Cryptic Level: " + animal.cryptic;
+                GameObject.Find("PopupImage").GetComponent<Image>().sprite = animal.picture;
                 AddToScore(animal);
                 break;
             case 1:
                 animal = upland.allAnimals[Random.Range(0, upland.allAnimals.Count)];
                 animal.sightings += 1;
+                GameObject.Find("PopupName").GetComponent<Text>().text = animal.name;
+                GameObject.Find("PopupDescription").GetComponent<Text>().text = animal.shortDescription;
+                GameObject.Find("PopupCryptic").GetComponent<Text>().text = "Cryptic Level: " + animal.cryptic;
+                GameObject.Find("PopupImage").GetComponent<Image>().sprite = animal.picture;
                 AddToScore(animal);
                 break;
             case 2:
                 animal = bottomland.allAnimals[Random.Range(0, bottomland.allAnimals.Count)];
                 animal.sightings += 1;
+                GameObject.Find("PopupName").GetComponent<Text>().text = animal.name;
+                GameObject.Find("PopupDescription").GetComponent<Text>().text = animal.shortDescription;
+                GameObject.Find("PopupCryptic").GetComponent<Text>().text = "Cryptic Level: " + animal.cryptic;
+                GameObject.Find("PopupImage").GetComponent<Image>().sprite = animal.picture;
                 AddToScore(animal);
                 break;
             case 3:
                 animal = water.allAnimals[Random.Range(0, water.allAnimals.Count)];
                 animal.sightings += 1;
+                GameObject.Find("PopupName").GetComponent<Text>().text = animal.name;
+                GameObject.Find("PopupDescription").GetComponent<Text>().text = animal.shortDescription;
+                GameObject.Find("PopupCryptic").GetComponent<Text>().text = "Cryptic Level: " + animal.cryptic;
+                GameObject.Find("PopupImage").GetComponent<Image>().sprite = animal.picture;
                 AddToScore(animal);
                 break;
             default:
@@ -97,7 +96,7 @@ private GameObject SpawnPopUp(GameObject popup)
                 animal.sightings += 1;
                 GameObject.Find("PopupName").GetComponent<Text>().text = animal.name;
                 GameObject.Find("PopupDescription").GetComponent<Text>().text = animal.shortDescription;
-                GameObject.Find("PopupRarity").GetComponent<Text>().text = "Rarity: " + animal.rarity;
+                GameObject.Find("PopupCryptic").GetComponent<Text>().text = "Cryptic Level: " + animal.cryptic;
                 GameObject.Find("PopupImage").GetComponent<Image>().sprite = animal.picture;
                 AddToScore(animal);
                 break;
@@ -107,18 +106,18 @@ private GameObject SpawnPopUp(GameObject popup)
 
    private void AddToScore(Animal animal)
     {
-        switch(animal.rarity)
+        switch(animal.cryptic)
         {
-            case "Common":
+            case "Very Low":
                 ScoreManager.scoreValue += 50;
                 break;
-            case "Uncommon":
+            case "Low":
                 ScoreManager.scoreValue += 100;
                 break;
-            case "Rare":
+            case "High":
                 ScoreManager.scoreValue += 200;
                 break;
-            case "Legendary":
+            case "Very High":
                 ScoreManager.scoreValue += 1000;
                 break;
         }

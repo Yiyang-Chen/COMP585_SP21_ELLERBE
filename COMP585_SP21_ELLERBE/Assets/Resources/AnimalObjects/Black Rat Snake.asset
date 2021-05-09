@@ -24,6 +24,6 @@ MonoBehaviour:
     are shaped somewhat like a loaf of bread rather than having round bodies."
   shortDescription: 'The most common large snakes encountered by people in most parts
     of North Carolina. '
-  rarity: Rare
+  cryptic: Low
   picture: {fileID: 21300000, guid: 3f120309e7865764ba65305ec8b1ecf4, type: 3}
   sightings: 0

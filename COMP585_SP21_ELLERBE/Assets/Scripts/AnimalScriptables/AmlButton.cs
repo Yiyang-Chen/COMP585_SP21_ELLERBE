@@ -9,14 +9,14 @@ public class AmlButton : MonoBehaviour
    
    public RectTransform panel;
    public Text animalName;
-   public Text rarity;
+   public Text cryptic;
    public Text description;
    public Image picture;
 
    public void OnAmlButtonClick() {
        panel.gameObject.SetActive(true);
        animalName.text = animal.animalName;
-       rarity.text = animal.rarity;
+       cryptic.text = "Cryptic Level: " + animal.cryptic;
        description.text = animal.description;
        picture.sprite = animal.picture;
    }

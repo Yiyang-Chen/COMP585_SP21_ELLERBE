@@ -35,6 +35,6 @@ MonoBehaviour:
     population. Cricket frogs from other locales are unable to aurally process other
     calls, leading to mating isolation among the species.'
   shortDescription: Small, North American frogs of the family Hylidae.
-  rarity: Rare
+  cryptic: High
   picture: {fileID: 21300000, guid: e5ed7acdbd2e88c46a6bf3908593baab, type: 3}
   sightings: 0

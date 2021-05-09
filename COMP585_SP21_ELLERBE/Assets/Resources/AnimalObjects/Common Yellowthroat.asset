@@ -21,6 +21,6 @@ MonoBehaviour:
     of thrush, the word being derived from trikhos, "hair".
   shortDescription: An abundant breeder in North America, ranging from southern Canada
     to central Mexico.
-  rarity: Common
+  cryptic: Very High
   picture: {fileID: 21300000, guid: a74781a7fa1152b4aacad1005df44927, type: 3}
   sightings: 0

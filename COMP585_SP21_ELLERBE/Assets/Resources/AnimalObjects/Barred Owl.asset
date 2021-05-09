@@ -37,6 +37,6 @@ MonoBehaviour:
     of the barred on the spotted owl species.'
   shortDescription: A North American large species of owl. Also known as the northern
     barred owl, striped owl or, more informally, hoot owl.
-  rarity: Rare
+  cryptic: High
   picture: {fileID: 21300000, guid: 47014dd0c847aa844b32ede49019dc36, type: 3}
   sightings: 0

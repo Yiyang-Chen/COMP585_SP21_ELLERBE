@@ -28,6 +28,6 @@ MonoBehaviour:
     to better endure the colder months. Normally a quiet, retiring snake, copperheads
     will strike vigorously if annoyed."
   shortDescription: "The most widespread of North Carolina\u2019s six venomous snakes."
-  rarity: Common
+  cryptic: Low
   picture: {fileID: 21300000, guid: 6a03f2c3324268f4f9eb7f73a576c030, type: 3}
   sightings: 0

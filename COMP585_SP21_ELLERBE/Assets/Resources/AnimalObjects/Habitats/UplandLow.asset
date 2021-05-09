@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6bdbe552e0d0bf46bfbba4f5250d9b3, type: 3}
-  m_Name: OpenWaterUnCommon
+  m_Name: UplandLow
   m_EditorClassIdentifier: 
   allAnimals:
-  - {fileID: 11400000, guid: 6aaecfa082fe1c2469505a6e8d272a4d, type: 2}
-  - {fileID: 11400000, guid: 80d870923d31f8d418df1a0b41a7b3a3, type: 2}
-  - {fileID: 11400000, guid: 48922a39ecd7c3543a0001f3512e4209, type: 2}
+  - {fileID: 11400000, guid: 5cd9ad91565c6014f92c2bb224cba7dd, type: 2}
+  - {fileID: 11400000, guid: c288f5d48a914fe45af64899ba60c099, type: 2}
+  - {fileID: 11400000, guid: a47ffab89ffba8e44936ee24ace7db16, type: 2}
+  - {fileID: 11400000, guid: 1ca7d0155a90cfc439d56584d6078f75, type: 2}

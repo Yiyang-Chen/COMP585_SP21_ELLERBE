@@ -111,9 +111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parent: {fileID: 0}
   water: {fileID: 11400000, guid: f80ad7fe7ebb4134593744f1172e4d35, type: 2}
-  bottomland: {fileID: 11400000, guid: f111a3d5665fe714ab8c0bd65957238e, type: 2}
-  upland: {fileID: 11400000, guid: 6d9ab34908900e94da742289acf6b353, type: 2}
-  popup: {fileID: 5165573973920548761, guid: da32becb46b00d94eb7dfe10dc2ea156, type: 3}
+  bottomland: {fileID: 11400000, guid: 8aeed7c61f7f4504cbee9d5f512a86f5, type: 2}
+  upland: {fileID: 11400000, guid: e94da5a21ab555e48bbd7b80365880dd, type: 2}
 --- !u!114 &7067965497533556255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,8 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3de8692a31ae3f044bb9868055bc03ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eggExistSeconds: 30
-  fadeSpeed: 0.03
+  eggExistSeconds: 20
+  fadeSpeed: 0.05
 --- !u!114 &-3815051409422740594
 MonoBehaviour:
   m_ObjectHideFlags: 0

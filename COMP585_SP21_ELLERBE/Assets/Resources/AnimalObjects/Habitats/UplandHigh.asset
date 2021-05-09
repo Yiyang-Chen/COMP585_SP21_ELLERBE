@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6bdbe552e0d0bf46bfbba4f5250d9b3, type: 3}
-  m_Name: LowlandLegendary
+  m_Name: UplandHigh
   m_EditorClassIdentifier: 
   allAnimals:
-  - {fileID: 11400000, guid: 8d7405a2b360f454fa6721600d409a95, type: 2}
-  - {fileID: 11400000, guid: f4574fcb82183be479f56a7ff487e526, type: 2}
+  - {fileID: 11400000, guid: ab88b6ce91255034e8312f28a171ad10, type: 2}
+  - {fileID: 11400000, guid: 5d4db3cdab0dc72459c30049fcc5e897, type: 2}
+  - {fileID: 11400000, guid: 7794025310b9d8b4182927f03cc8e423, type: 2}

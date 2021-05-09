@@ -10,7 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6bdbe552e0d0bf46bfbba4f5250d9b3, type: 3}
-  m_Name: OpenWaterRare
+  m_Name: WaterLow
   m_EditorClassIdentifier: 
   allAnimals:
-  - {fileID: 11400000, guid: e26c2d35c3dda124786892457c07258b, type: 2}
+  - {fileID: 11400000, guid: 6aaecfa082fe1c2469505a6e8d272a4d, type: 2}
+  - {fileID: 11400000, guid: e47d982bb18433347a307e5aa984ad3f, type: 2}
+  - {fileID: 11400000, guid: 48922a39ecd7c3543a0001f3512e4209, type: 2}
+  - {fileID: 11400000, guid: 80d870923d31f8d418df1a0b41a7b3a3, type: 2}

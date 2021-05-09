@@ -10,11 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6bdbe552e0d0bf46bfbba4f5250d9b3, type: 3}
-  m_Name: OpenWaterCommon
+  m_Name: WaterVeryLow
   m_EditorClassIdentifier: 
   allAnimals:
-  - {fileID: 11400000, guid: 3796ba242d3d9094a85880484db83ff8, type: 2}
   - {fileID: 11400000, guid: 4f6883d469792fc4b90560dd0f6f9e61, type: 2}
-  - {fileID: 11400000, guid: e47d982bb18433347a307e5aa984ad3f, type: 2}
-  - {fileID: 11400000, guid: cc0b4860a0d0c4b49ac481924101f7ad, type: 2}
   - {fileID: 11400000, guid: e3b01c3fa1db75f4f9b2f735fecf1764, type: 2}
+  - {fileID: 11400000, guid: cc0b4860a0d0c4b49ac481924101f7ad, type: 2}

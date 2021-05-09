@@ -38,6 +38,6 @@ MonoBehaviour:
     anal gland secretions and are more likely to tolerate them as neighbors.'
   shortDescription: Large, semiaquatic rodents in the genus Castor native to the
     temperate Northern Hemisphere.
-  rarity: Common
+  cryptic: Very High
   picture: {fileID: 21300000, guid: 319041f20c63f974ab26291ae4d40c09, type: 3}
   sightings: 0

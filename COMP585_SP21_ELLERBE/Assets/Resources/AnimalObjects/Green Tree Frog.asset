@@ -19,6 +19,6 @@ MonoBehaviour:
     defined ivory or yellow stripe along their upper jaws and their sides.
   shortDescription: Relatively large, slender and usually bright green (but sometimes
     olive or brownish) with large toe pads and a white belly.
-  rarity: Uncommon
+  cryptic: High
   picture: {fileID: 21300000, guid: b83e8ae839f4c2641931659015b95d5e, type: 3}
   sightings: 0

@@ -10,6 +10,22 @@ public class InsideARegion : MonoBehaviour
     const float eps = 0.0001f;
     public int inRegion = -2;
 
+    //Check which region the point is in, return -1 if outside all the regions 
+    public int checkRegion(Vector2 P)
+    {
+        for (int i = 0; i < polygons.Length; i++)
+        {
+            Debug.Log("Checking region " + i);
+            if (inPolygon(P, getPoints(polygons[i])))
+            {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    //Functions below are to serve for the algorithm to determine which region a point is inside
+
     //compare two floats under certain eps
     private int fcmp(float x)
     {
@@ -33,16 +49,16 @@ public class InsideARegion : MonoBehaviour
             //polygon[] are the corners of polygon
             P1 = polygon[i];
             P2 = polygon[j];
-            Debug.Log("("+i+" , "+j+")"+"Comparing point P with edge: " + P1 + " -> " + P2);
+            //(i , j ) Comparing point P with edge: P1 -> P2
             if (onSegment(P1, P2, P))//point on one edge of polygon
             {
-                Debug.Log("Point P on the edge: " + P1 + " -> " + P2);
+                //Point P on the edge: P1  ->  P2
                 return true; 
             }
             //min(P1.y,P2.y)<P.y<=max(P1.y,P2.y) && on left hand side of the vector
             if ((fcmp(P1.y - P.y) > 0 != fcmp(P2.y - P.y) > 0) && fcmp(P.x - (P.y - P1.y) * (P1.x - P2.x) / (P1.y - P2.y) - P1.x) < 0)
             {
-                Debug.Log("Point y of P intersect with edge and P on the lefthand side of edge: " + P1 + " -> " + P2);
+                //Point y of P intersect with edge and P on the lefthand side of edge: P1 ->  P2
                 flag = !flag;
             }
                 
@@ -50,9 +66,10 @@ public class InsideARegion : MonoBehaviour
         return flag;
     }
 
+    //Get all the points
     private Vector2[] getPoints(int[] polygon)
     {
-        Debug.Log("Points are:");
+        
         Vector2[] polyPoints = new Vector2[polygon.Length];
         for (int i=0;i<polygon.Length;i++)
         {
@@ -60,25 +77,5 @@ public class InsideARegion : MonoBehaviour
             Debug.Log(polygon[i]+": "+points[polygon[i]]);
         }
         return polyPoints;
-    }
-
-    public int checkRegion(Vector2 P)
-    {
-        for(int i=0;i< polygons.Length; i++)
-        {
-            Debug.Log("Checking region "+ i);
-            if( inPolygon(P, getPoints(polygons[i]))){
-                return i;
-            }
-        }
-        return -1;
-    }
-
-    public void checkTest()
-    {
-        Vector2 P = new Vector2(GameObject.Find("DetectLocation").GetComponent<DetectLocation>().fCurrentPos.x, GameObject.Find("DetectLocation").GetComponent<DetectLocation>().fCurrentPos.y);
-        inRegion = checkRegion(P);
-        GameObject.Find("RegionText").GetComponent<Text>().text = "Your Location: " + P + " In region:" + inRegion;
-        Debug.Log("Point P: " + P + " In region:" + checkRegion(P));
     }
 }

@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6bdbe552e0d0bf46bfbba4f5250d9b3, type: 3}
-  m_Name: UplandUncommon
+  m_Name: WaterHigh
   m_EditorClassIdentifier: 
   allAnimals:
-  - {fileID: 11400000, guid: ab88b6ce91255034e8312f28a171ad10, type: 2}
-  - {fileID: 11400000, guid: a1c8eb6f0a7dc024fbfb55196cd0972f, type: 2}
-  - {fileID: 11400000, guid: 7794025310b9d8b4182927f03cc8e423, type: 2}
+  - {fileID: 11400000, guid: f4574fcb82183be479f56a7ff487e526, type: 2}
+  - {fileID: 11400000, guid: e26c2d35c3dda124786892457c07258b, type: 2}
