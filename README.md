@@ -1,6 +1,9 @@
 # COMP585_SP21_ELLERBE
 **Andrew Martin, Stephanie Lu, and Yiyang Chen**
 
+This short instruction is for anyone who has a technology background and wants to make further development.
+For more instruction about the project, please go to [this link](https://docs.google.com/document/d/1uXWVjodxxR0iBm0rQa7uPLGFz59HPaWMWs8gMeV128w/edit?usp=sharing)
+
 # 1.Unity
 This is a unity project, we use version **2019.4.22f1**
 
@@ -17,9 +20,9 @@ Download the folder Vuforia.
 
 Put the folder under **Packages/package**
 
-Some part of the Vuforia is already included in this github. If you install vuforia from official website without having that folder in the right place, there might be errors. 
+Some part of the Vuforia is already included in this github. If you install vuforia from the official website without having this Vuforia folder provided in the right place, there might be errors. 
 
 
 
 # 3. Build settings
-Build settings differ in every computer for every cell phone. Please refer to tutorials.
+Build settings differ in every computer for every cell phone. Try [Android tutorial](https://www.youtube.com/watch?v=1yLDxIMuRlo&t=185s) and [IOS tutorial](https://www.youtube.com/watch?v=DzH4UODL7Dc)
