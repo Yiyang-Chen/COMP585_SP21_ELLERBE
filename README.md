@@ -25,4 +25,4 @@ Some part of the Vuforia is already included in this github. If you install vufo
 
 
 # 3. Build settings
-Build settings differ in every computer for every cell phone. Please refer to tutorials.
+Build settings differ in every computer for every cell phone. Try [Android tutorial](https://www.youtube.com/watch?v=1yLDxIMuRlo&t=185s) and [IOS tutorial](https://www.youtube.com/watch?v=DzH4UODL7Dc)
