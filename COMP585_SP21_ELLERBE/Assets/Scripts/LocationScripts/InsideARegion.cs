@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// The codes used to detect which habitate palyers are in
+/// </summary>
 public class InsideARegion : MonoBehaviour
 {
     public Vector2[] points = new Vector2[8];

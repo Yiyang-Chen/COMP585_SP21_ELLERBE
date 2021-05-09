@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// The codes used to let eggs fade after spawned
+/// </summary>
 public class EggFade : MonoBehaviour
 {
-    public int eggExistSeconds = 30;
     public float fadeSpeed;
 
     void Update()

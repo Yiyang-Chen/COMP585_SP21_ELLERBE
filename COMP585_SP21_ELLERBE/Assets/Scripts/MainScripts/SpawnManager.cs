@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// The code is used to manage how eggs are spawned
+/// </summary>
 public class SpawnManager : MonoBehaviour
 {
     public GameObject common;

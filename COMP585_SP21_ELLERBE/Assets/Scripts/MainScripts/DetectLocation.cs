@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using Vuforia;
 
+/// <summary>
+/// The codes used to get access to cell phone's GPS system
+/// 
+/// fake position = real position * scale
+/// </summary>
 public class DetectLocation : MonoBehaviour {
 	
 	private Vector2 rInitPos;
@@ -19,8 +24,6 @@ public class DetectLocation : MonoBehaviour {
 	public int maxWait = 20;
 	
 	public bool ready = false;
-
-	public string currentHabitat;
 
 	void Start(){
 		if (GameObject.Find("Debuglog").activeSelf == true)
@@ -65,8 +68,7 @@ public class DetectLocation : MonoBehaviour {
 		startCalculate ();
 	}
 
-	//calculates distance between device and target
-	//calculates player's position in gameworld
+	//calculates player's fake position
 	public void startCalculate(){
 		rCurrentPos = new Vector2 (deviceLatitude, deviceLongitude);
 		Vector2 delta = new Vector2(rCurrentPos.x - rInitPos.x, rCurrentPos.y - rInitPos.y);
