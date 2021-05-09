@@ -1,6 +1,9 @@
 # COMP585_SP21_ELLERBE
 **Andrew Martin, Stephanie Lu, and Yiyang Chen**
 
+This short instruction is for anyone who has a technology background and wants to make further development.
+For more instruction about the project, please go to [this link](https://docs.google.com/document/d/1uXWVjodxxR0iBm0rQa7uPLGFz59HPaWMWs8gMeV128w/edit?usp=sharing)
+
 # 1.Unity
 This is a unity project, we use version **2019.4.22f1**
 
