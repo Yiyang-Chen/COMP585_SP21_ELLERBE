@@ -29,10 +29,16 @@ public class SpawnManager : MonoBehaviour
         //waiting for  + randSecond + Seconds
         randSecond = Random.Range(minWaitSeconds, maxWaitSeconds);
         yield return new WaitForSeconds(randSecond);
-
         //Spawn
-        spawnedWhenClick();
+        if (this.GetComponent<InsideARegion>().checkRegion(this.GetComponent<DetectLocation>().fCurrentPos) == -1 || this.GetComponent<InsideARegion>().checkRegion(this.GetComponent<DetectLocation>().fCurrentPos) == -2)
+        {
 
+        }
+        else 
+        { 
+            spawn();
+        }
+            
         //waiting for 20 Seconds
         yield return new WaitForSeconds(eggExistSeconds);
 
@@ -52,7 +58,21 @@ public class SpawnManager : MonoBehaviour
 
     public void spawnedWhenClick()
     {
-        spawn();
+        if(this.GetComponent<InsideARegion>().checkRegion(this.GetComponent<DetectLocation>().fCurrentPos)==-1|| this.GetComponent<InsideARegion>().checkRegion(this.GetComponent<DetectLocation>().fCurrentPos) == -2)
+        {
+            if (GameObject.Find("SpawnInfo").activeInHierarchy == true)
+            {
+                GameObject.Find("SpawnInfo").GetComponent<Text>().text = "Not in the right region, cannot spawn";
+            }
+        }
+        else
+        {
+            if (GameObject.Find("SpawnInfo").activeInHierarchy == true)
+            {
+                GameObject.Find("SpawnInfo").GetComponent<Text>().text = "In the right region, spawn";
+            }
+            spawn();
+        } 
     }
 
     //Decide which kind of perfeb to spawn accroading to the distance to target 

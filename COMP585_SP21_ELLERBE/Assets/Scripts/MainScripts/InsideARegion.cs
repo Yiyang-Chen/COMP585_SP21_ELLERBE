@@ -18,7 +18,6 @@ public class InsideARegion : MonoBehaviour
     {
         for (int i = 0; i < polygons.Length; i++)
         {
-            Debug.Log("Checking region " + i);
             if (inPolygon(P, getPoints(polygons[i])))
             {
                 return i;
@@ -77,7 +76,6 @@ public class InsideARegion : MonoBehaviour
         for (int i=0;i<polygon.Length;i++)
         {
             polyPoints[i] = points[polygon[i]];
-            Debug.Log(polygon[i]+": "+points[polygon[i]]);
         }
         return polyPoints;
     }
